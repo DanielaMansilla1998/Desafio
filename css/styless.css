@@ -1,0 +1,440 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar,
+.navbar ul,
+footer {
+    width: 100%;
+    height: 40% !important;
+    min-height: 50px;
+    display: flex;
+    background-color: #544959;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar ul {
+    justify-content: space-around;
+}
+
+a {
+    color: #58F587;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.icono {
+    width: 25%;
+    height: 50px;
+    background-image: url("/img/iconos/iconooli.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contenedor-imagen {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px dashed #544959;
+}
+
+.contenedor-imagen-texto {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #544959;
+    background-color: #58F587;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.contenedor-imagen-texto p {
+    font-size: 1.3em;
+}
+
+.boton-reservar {
+    width: 30%;
+    height: 50px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 20px;
+    background-color: #544959;
+    color: #58F587;
+    font-size: 1em;
+}
+
+.boton-reservar:hover {
+    font-size: 1.2em;
+    -webkit-box-shadow: -12px 10px 24px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -12px 10px 24px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: -12px 10px 24px -11px rgba(0, 0, 0, 0.75);
+}
+
+main {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-main-1 {
+    width: 100%;
+    height: 20%;
+}
+
+h2 {
+    text-align: center;
+    padding: 2%;
+    background-color: #67596C;
+    color: #58F587;
+    border-bottom: 3px dashed #58F587;
+    font-size: 1.5em;
+}
+
+.contenedor-main-2 {
+    height: 35%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(74, 15, 124);
+    background: linear-gradient(81deg, rgba(74, 15, 124, 1) 0%, rgba(88, 245, 135, 1) 87%);
+}
+
+.card {
+    width: 25%;
+    height: 300px;
+    margin-top: -5%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #000000;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    margin-bottom: 5%;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.card p {
+    margin-inline: 10%;
+    font-size: 1.1em;
+}
+
+.card-primera {
+    background-color: #FF343B;
+    color: #fff;
+}
+
+.card-segunda {
+    background-color: #FFEC0D;
+}
+
+.card-tercera {
+    background-color: #427D05;
+    color: #FEFEFE;
+}
+
+.card-especial {
+    width: 25%;
+    height: 300px;
+    margin-top: 5%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #626262;
+}
+
+.card-cuarta {
+    background-color: #4F68CB;
+    color: #FEFEFE;
+}
+
+.card-quinta {
+    background-color: #FFAA1F;
+}
+
+.contenedor-nosotros {
+    width: 100%;
+    height: 400px;
+    margin-top: 2%;
+    color: #67596C;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nosotros {
+    margin-top: 15%;
+    background-color: #d4b8dd;
+}
+
+.servicios{
+    margin-top: -0.6%;
+    background-color: #d4b8dd;
+}
+
+.niños5{
+    background-color: #FFA2CA;
+    color: #722773;
+    border-top: 3px dashed #722773;
+}
+
+.niños10{
+    background-color: #FFCF19;
+    color: #0A0300;
+    border-top: 3px dashed #0A0300;
+}
+
+.familia{
+    background-color: #FF6700;
+    color: #0A0300;
+    border-top: 3px dashed #d4b8dd;
+}
+
+
+.contenedor-nosotros div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-nosotros div h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.contenedor-nosotros div p {
+    margin-inline: 10%;
+    margin-top: -1%;
+    font-size: 1.2em;
+}
+
+.boton-especial {
+    background-color: #67596C !important;
+    color: #F1D2FB !important;
+}
+
+.botonera {
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+.contenedor-imagenes {
+    width: 100%;
+    height: 400px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(74, 15, 124);
+    background: linear-gradient(274deg, rgba(74, 15, 124, 1) 0%, rgba(75, 34, 125, 1) 7%, rgba(76, 50, 126, 1) 13%, rgba(79, 97, 128, 1) 48%, rgba(88, 245, 135, 1) 87%);
+}
+
+.contenedor-imagenes img {
+    height: 300px;
+    max-width: 30%;
+}
+
+footer {
+    height: 70px !important;
+    color: #58F587;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+.contenedor_redes {
+    width: 50%;
+}
+
+.redes {
+    width: 6%;
+    margin-left: 5%;
+    color: #fff;
+}
+
+.redes:hover {
+    width: 7%;
+}
+
+
+/* EXCLUSIVOS DE SERVICIOS*/
+.imagenes-servicios{
+    margin-top: 0%;
+}
+
+.contenedor-iconos-servicios{
+    width: 100%;
+    height: 180px;
+    margin-top: -0.6%;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    background-color: #67596C;
+}
+
+.contenedor-icono{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor-icono img{
+    width: 32%;
+}
+
+.contenedor-icono img:hover{
+    width: 35%;
+}
+
+.contenedor-icono label{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.contenedor-servicios-destacados{
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.servicios-destacados{
+    width: fit-content;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+
+/* ESTILOS RESERVAS Y CONSULTAS */
+.contenedor-horarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.horarios-atencion{
+    margin-top: -0.6%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.horarios-atencion div{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.horarios-servicio{
+    width: 100%;
+    height: 300px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #67596C;
+    color: #F1D2FB;
+    border: 3px dashed #58F587;
+}
+
+.contenedor-formulario{
+    width: 98%;
+    margin: 5% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-consulta{
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-formulario h3{
+    color:#67596C;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.espacio-campos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    color: #544959;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 2%;
+    font-size: 1em;
+    border: 1px solid #67596C;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 2%;
+    border: 1px solid #67596C;
+    border-radius: 10px;
+}
+
+#boton-enviar{
+    width: 40%;
+    height: 50px;
+    align-self: center;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #67596C;
+    color: #d4b8dd;
+    font-size: 1.1em;
+}
+
+#boton-enviar:hover{
+    background-color: #473d4b;
+    color: #b29bb9;
+    font-size: 1.3em;
+}
