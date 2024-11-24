@@ -474,6 +474,24 @@ textarea {
         background-color: rgba(110, 90, 122, 0.84) !important;
     }
 
+    .navbarr {
+        justify-items: center;
+        align-items: center;
+    }
+
+    .navbarr ul {
+        width: 100% !important;
+        gap: 1em;
+    }
+
+    .navbarr ul li {
+        width: fit-content;
+        min-width: 30%;
+        text-align: center;
+    }
+
+
+
     .contenedor-imagen {
         height: 80%;
         flex-direction: column;
@@ -538,63 +556,79 @@ textarea {
         height: 900px;
         flex-direction: column-reverse;
     }
-    
-    .festeja{
+
+    .festeja {
         height: 700px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
     }
 
-    .festeja img{
+    .festeja img {
         width: 50%;
         height: 40%;
         justify-self: center;
         align-self: center;
     }
 
-    .festeja div{
+    .festeja div {
         height: 40%;
         justify-content: space-evenly;
     }
 
-
-
-
     .servicios {
-        margin-top: -0.6%;
-        background-color: #d4b8dd;
+        height: 700px;
+        margin-top: -1.2%;
+    }
+
+    .servicios div {
+        height: 40%;
+    }
+
+    .servicios div img {
+        width: 20%;
+        height: 40%;
+    }
+
+    .servicios img {
+        height: 60%;
     }
 
     .contenedor-nosotros div {
         height: 70%;
     }
-    
+
     .contenedor-nosotros div h3 {
         font-size: 1.8em;
+    }
+
+    .contenedor-imagenes {
+        height: 1100px;
+        margin-top: 0%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contenedor-imagenes img {
+        height: 300px;
+        max-width: 60%;
+    }
+
+    /* EXCLUSIVOS DE SERVICIOS*/
+    .contenedor-iconos-servicios {
+        height: 500px;
+        flex-direction: column;
+        margin-top: -1.2%;
+    }
+
+    .contenedor-icono {
+        width: 30%;
     }
 
 }
 
 /* RESPONSIVE CELULAR */
 @media (max-width: 480px) {
-
-    .navbarr{
-        justify-items: center;
-        align-items: center;
-    }
-
-    .navbarr ul {
-        width: 100% !important;
-        gap: 1em;
-    }
-    
-    .navbarr ul li{
-        width: fit-content;
-        min-width: 30%;
-        text-align: center;
-    }
-
 
     .contenedor-imagen-texto {
         height: 300px;
@@ -649,21 +683,21 @@ textarea {
         margin-left: 0%;
     }
 
-    .nosotros img{
+    .nosotros img {
         height: 35%;
     }
-    
-    .festeja{
+
+    .festeja {
         height: 900px;
         margin-top: 10%;
     }
 
-    .festeja img{
+    .festeja img {
         width: 60%;
         height: 30%;
     }
 
-    .festeja div{
+    .festeja div {
         height: 75%;
         margin-top: 5%;
     }
@@ -671,14 +705,77 @@ textarea {
     .botonera {
         flex-direction: column !important;
     }
-    
+
+    .servicios {
+        height: 800px;
+        margin-top: -2.2%;
+    }
+
+    .servicios div {
+        height: 50%;
+        margin-inline: 7%;
+        font-size: 1em;
+    }
+
+    .servicios div img {
+        width: 35%;
+        height: 30%;
+    }
+
+    .servicios img {
+        height: 50%;
+    }
+
+    .contenedor-imagenes {
+        height: 1000px;
+    }
+
+    .contenedor-imagenes img {
+        max-width: 80%;
+    }
+
+    /* EXCLUSIVOS DE SERVICIOS*/
+    .contenedor-iconos-servicios {
+        height: 700px;
+        margin-top: -2.2%;
+    }
+
+    .contenedor-icono {
+        width: 80%;
+    }
+
+    .cards-servicios {
+        height: 900px;
+    }
+
+    .cards-servicios div{
+        width: 80% !important;
+        margin-inline: 5%;
+    }
+
+    .cards-servicios div{
+       width: 60%;
+       margin-left: 5%;
+    }
+
+    .card-primera-servicios {
+        margin-top: 0%;
+    }
+
+    .contenedor-servicios-destacados {
+        width: 90%;
+        margin-left: 0%;
+        grid-template-columns: 60%;
+    }
 
     footer {
         height: 300px !important;
         flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
         font-size: 1.3em;
     }
-    
+
     .contenedor_redes {
         height: 80%;
         width: 100%;
@@ -688,10 +785,10 @@ textarea {
         justify-items: center;
         align-items: center;
     }
-    
+
     .redes {
         width: 10%;
         margin: 0%;
     }
-    
+
 }
