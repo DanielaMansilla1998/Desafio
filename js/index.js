@@ -1,6 +1,6 @@
 // HEADER
-document.getElementById("navbar").innerHTML = `
-        <nav class="navbar">
+document.getElementById("navbarr").innerHTML = `
+        <nav class="navbarr">
             <ul>
                 <li class="icono"></li>
                 <li><a href="/index.html">Inicio</a></li>
@@ -25,13 +25,11 @@ document.getElementById("imagenes").innerHTML = `
 
 
 // FOOTER
-document.getElementById("footer").innerHTML = `
-    <footer>
+document.getElementById("footerr").innerHTML = `
         <label> &copy; 2024 - Oli Oli fiestas </label>
         <div class="contenedor_redes">
             <a href=""><img class="redes" src="/img/iconos/facebook.png" alt="Icono de la red social Facebook."></a>
             <a href=""><img class="redes" src="/img/iconos/instagram.png" alt="Icono de la red social Instagram."></a>
             <a href=""><img class="redes" src="/img/iconos/twitter.png" alt="Icono de la red social X."></a>
         </div>
-    </footer>
 `;
