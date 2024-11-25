@@ -224,7 +224,6 @@ h2 {
     border-top: 3px dashed #d4b8dd;
 }
 
-
 .contenedor-nosotros div {
     display: flex;
     flex-direction: column;
@@ -464,7 +463,15 @@ textarea {
 }
 
 
+/* RESPONSIVE COMPUTADORA PEQUEÑA */
+@media (max-width: 1100px) {
 
+    .niños5 img,
+    .familia img {
+        width: 60%;
+    }
+
+}
 
 
 /* RESPONSIVE TABLET */
@@ -489,8 +496,6 @@ textarea {
         min-width: 30%;
         text-align: center;
     }
-
-
 
     .contenedor-imagen {
         height: 80%;
@@ -594,6 +599,11 @@ textarea {
         height: 60%;
     }
 
+    .niños5 img,
+    .familia img {
+        width: 100%;
+    }
+
     .contenedor-nosotros div {
         height: 70%;
     }
@@ -625,7 +635,66 @@ textarea {
         width: 30%;
     }
 
+
+    /* ESTILOS RESERVAS Y CONSULTAS */
+    .contenedor-horarios {
+        margin-top: -0.6%;
+    }
+
+    .espacio-campos {
+        width: 70%;
+    }
+
+    input {
+        height: 45px;
+    }
+
+    textarea {
+        height: 180px;
+    }
+
+    #boton-enviar {
+        width: 70%;
+        height: 60px;
+    }
+
 }
+
+
+/* RESPONSIVE TABLET PEQUEÑA */
+@media (max-width: 600px) {
+
+    .contenedor-servicios-destacados {
+        width: 90%;
+        margin-left: 0%;
+        grid-template-columns: 60%;
+    }
+
+    footer {
+        height: 300px !important;
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.3em;
+    }
+
+    .contenedor_redes {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .redes {
+        width: 10%;
+        margin: 0%;
+    }
+
+}
+
 
 /* RESPONSIVE CELULAR */
 @media (max-width: 480px) {
@@ -748,47 +817,72 @@ textarea {
         height: 900px;
     }
 
-    .cards-servicios div{
+    .cards-servicios div {
         width: 80% !important;
         margin-inline: 5%;
     }
 
-    .cards-servicios div{
-       width: 60%;
-       margin-left: 5%;
+    .cards-servicios div {
+        width: 60%;
+        margin-left: 5%;
     }
 
     .card-primera-servicios {
         margin-top: 0%;
     }
 
-    .contenedor-servicios-destacados {
-        width: 90%;
-        margin-left: 0%;
-        grid-template-columns: 60%;
+
+
+
+    /* ESTILOS RESERVAS Y CONSULTAS */
+
+    .horarios-atencion {
+        margin-top: -1.7%;
+        height: 600px;
     }
 
-    footer {
-        height: 300px !important;
-        flex-direction: column-reverse;
-        justify-items: center;
-        align-items: center;
-        font-size: 1.3em;
+    .horarios-atencion div {
+        height: 400px;
     }
 
-    .contenedor_redes {
-        height: 80%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        justify-items: center;
-        align-items: center;
+    .horarios-atencion img {
+        height: 300px;
     }
 
-    .redes {
-        width: 10%;
-        margin: 0%;
+    .horarios-servicio {
+        height: 500px;
+        padding-inline: 10%;
+        padding-top: 10%;
+    }
+
+    .contenedor-formulario {
+        width: 98%;
+        margin: 2%;
+    }
+
+    .contenedor-formulario h3 {
+        text-align: center;
+    }
+
+    .espacio-campos {
+        width: 80%;
+    }
+
+    input {
+        height: 50px;
+    }
+
+    #boton-enviar {
+        width: 80%;
+        height: 70px;
+    }
+
+    .border-carousel {
+        margin-top: 15%;
+    }
+
+    .tamaño-carousel-celular {
+        height: 400px !important;
     }
 
 }
