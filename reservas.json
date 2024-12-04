@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "salon": "Sala chica 1",
+        "sucursal": "Caballito",
+        "reservas": [
+            {
+                "id": "1",
+                "nombre": "María",
+                "apellido": "Gómez",
+                "fecha": "24/01/2025",
+                "horario": "16:00 - 20:30",
+                "motivo": "fiesta infantil",
+                "precio": 300000
+            },
+            {
+                "id": "2",
+                "nombre": "Pedro",
+                "apellido": "Suarez",
+                "fecha": "24/02/2025",
+                "horario": "21:00 - 02:00",
+                "motivo": "fiesta familiar",
+                "precio": 250000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "salon": "Sala media 1",
+        "sucursal": "Caballito",
+        "reservas": [
+            {
+                "id": "1",
+                "nombre": "Max",
+                "apellido": "Payne",
+                "fecha": "24/12/2024",
+                "horario": "21:00 - 01:00",
+                "motivo": "fiesta familiar",
+                "precio": 400000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "salon": "Sala grande 1",
+        "sucursal": "Caballito",
+        "reservas": [
+            {
+                "id": "1",
+                "nombre": "Nathan",
+                "apellido": "Drake",
+                "fecha": "27/02/2025",
+                "horario": "21:00 - 01:00",
+                "motivo": "fiesta familiar",
+                "precio": 2000000
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "salon": "Sala grande 2",
+        "sucursal": "Caballito",
+        "reservas": [
+            {
+                "id": "1",
+                "nombre": "Lara",
+                "apellido": "Croft",
+                "fecha": "07/01/2025",
+                "horario": "14:30 - 18:00",
+                "motivo": "fiesta infantil",
+                "precio": 1000000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "salon": "Sala grande 1",
+        "sucursal": "Palermo",
+        "reservas": []
+    },
+    {
+        "id": 6,
+        "salon": "Sala mediana 1",
+        "sucursal": "Palermo",
+        "reservas": [
+            {
+                "id": "1",
+                "nombre": "Aloy",
+                "apellido": "Horizon",
+                "fecha": "03/02/2025",
+                "horario": "15:30 - 18:30",
+                "motivo": "fiesta infantil",
+                "precio": 500000
+            }
+        ]
+    }
+]

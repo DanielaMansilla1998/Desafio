@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "María",
+        "apellido": "Gómez",
+        "mail": "mariagomez88@gmail.com",
+        "contraseña": "123Abc$",
+        "celular": "+54 9 11 4058-7633"
+    },
+    {
+        "id": 2,
+        "nombre": "Max",
+        "apellido": "Payne",
+        "mail": "maxpaynerg@gmail.com",
+        "contraseña": "123Abc$",
+        "celular": "+54 9 11 4058-7633"
+    },
+    {
+        "id": 3,
+        "nombre": "Nathan",
+        "apellido": "Drake",
+        "mail": "sicparvismagna@gmail.com",
+        "contraseña": "123Abc$",
+        "celular": "+54 9 11 4058-7633"
+    },
+    {
+        "id": 4,
+        "nombre": "Lara",
+        "apellido": "Croft",
+        "mail": "laracroft123@gmail.com",
+        "contraseña": "123Abc$",
+        "celular": "+54 9 11 4058-7633"
+    }
+]
