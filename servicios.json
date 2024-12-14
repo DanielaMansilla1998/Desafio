@@ -3,78 +3,78 @@
         "id": 1,
         "tipo": "magia",
         "valor": 10000,
-        "icono": "/img/shows.png"
+        "icono": "/img/iconos/shows.png"
     }, 
     {
         "id": 2,
         "tipo": "música",
         "valor": 2500,
-        "icono": "/img/musica-y-luces.png"
+        "icono": "/img/iconos/musica-y-luces.png"
     }, 
     {
         "id": 3,
         "tipo": "metegol",
         "valor": 2500,
-        "icono": "/img/metegol.png"
+        "icono": "/img/iconos/metegol.png"
     }, 
     {
         "id": 4,
         "tipo": "videojuegos",
         "valor": 5000,
-        "icono": "/img/games.png"
+        "icono": "/img/iconos/games.png"
     }, 
     {
         "id": 5,
         "tipo": "música",
         "valor": 2500,
-        "icono": "/img/musica-y-luces.png"
+        "icono": "/img/iconos/musica-y-luces.png"
     }, 
     {
         "id": 6,
         "tipo": "baile",
         "valor": 2500,
-        "icono": "/img/baile.png"
+        "icono": "/img/iconos/baile.png"
     }, 
     {
         "id": 7,
         "tipo": "menú especial 20",
         "valor": 50000,
-        "icono": "/img/menu-celiaco.png"
+        "icono": "/img/iconos/menu-celiaco.png"
     }, 
     {
         "id": 8,
         "tipo": "menú especial 50",
         "valor": 80000,
-        "icono": "/img/menu-celiaco.png"
+        "icono": "/img/iconos/menu-celiaco.png"
     }, 
     {
         "id": 9,
         "tipo": "menú especial 100",
         "valor": 120000,
-        "icono": "/img/menu-celiaco.png"
+        "icono": "/img/iconos/menu-celiaco.png"
     }, 
     {
         "id": 10,
         "tipo": "menú 20",
         "valor": 40000,
-        "icono": "/img/menu.png"
+        "icono": "/img/iconos/menu.png"
     }, 
     {
         "id": 11,
         "tipo": "menú 50",
         "valor": 70000,
-        "icono": "/img/menu.png"
+        "icono": "/img/iconos/menu.png"
     }, 
     {
         "id": 12,
         "tipo": "menú 100",
         "valor": 110000,
-        "icono": "/img/menu.png"
+        "icono": "/img/iconos/menu.png"
     }, 
     {
         "id": 13,
         "tipo": "animadores",
         "valor": 20000,
-        "icono": "/img/shows.png"
+        "icono": "/img/iconos/shows.png"
     }
 ]

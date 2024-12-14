@@ -3,6 +3,10 @@
         "id": 1,
         "salon": "Sala chica 1",
         "sucursal": "Caballito",
+        "tipo": "infantil",
+        "descripcion": "Salón chico con capacidad para 25 personas.",
+        "valor": 60000,
+        "imagen": "img/pelotero4.jpg",
         "reservas": [
             {
                 "id": "1",
@@ -28,6 +32,10 @@
         "id": 2,
         "salon": "Sala media 1",
         "sucursal": "Caballito",
+        "tipo": "infantil",
+        "descripcion": "Salón mediano con capacidad para 40 personas.",
+        "valor": 80000,
+        "imagen": "img/pelotero2.jpg",
         "reservas": [
             {
                 "id": "1",
@@ -44,6 +52,10 @@
         "id": 3,
         "salon": "Sala grande 1",
         "sucursal": "Caballito",
+        "tipo": "infantil",
+        "descripcion": "Salón grande con capacidad para 80 personas.",
+        "valor": 100000,
+        "imagen": "img/pelotero3.jpg",
         "reservas": [
             {
                 "id": "1",
@@ -60,6 +72,10 @@
         "id": 4,
         "salon": "Sala grande 2",
         "sucursal": "Caballito",
+        "tipo": "adultos",
+        "descripcion": "Salón grande con capacidad para 60 personas.",
+        "valor": 100000,
+        "imagen": "img/salon2.jpg",
         "reservas": [
             {
                 "id": "1",
@@ -76,12 +92,20 @@
         "id": 5,
         "salon": "Sala grande 1",
         "sucursal": "Palermo",
+        "tipo": "adultos",
+        "descripcion": "Salón grande con capacidad para 100 personas.",
+        "valor": 100000,
+        "imagen": "img/salon1.jpeg",
         "reservas": []
     },
     {
         "id": 6,
         "salon": "Sala mediana 1",
         "sucursal": "Palermo",
+        "tipo": "infantil",
+        "descripcion": "Salón mediano con capacidad para 40 personas.",
+        "valor": 80000,
+        "imagen": "img/pelotero1.jpg",
         "reservas": [
             {
                 "id": "1",

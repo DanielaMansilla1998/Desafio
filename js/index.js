@@ -1,12 +1,30 @@
 // HEADER
-document.getElementById("navbarr").innerHTML = `
-        <nav class="navbarr">
-            <ul>
-                <li class="icono"></li>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/servicios.html">Servicios</a></li>
-                <li><a href="/reservas.html">Consultas</a></li>
-            </ul>
+document.getElementById("navbar").innerHTML = `
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbarr">
+            <div class="container-fluid navbarr">
+                <a class="icono" href="/index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-activo" href="/reservas.html">Consultas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/acceso.html">Acceso</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 `;
 
@@ -23,13 +41,3 @@ document.getElementById("imagenes").innerHTML = `
     </section>
 `;
 
-
-// FOOTER
-document.getElementById("footerr").innerHTML = `
-        <label> &copy; 2024 - Oli Oli fiestas </label>
-        <div class="contenedor_redes">
-            <a href=""><img class="redes" src="/img/iconos/facebook.png" alt="Icono de la red social Facebook."></a>
-            <a href=""><img class="redes" src="/img/iconos/instagram.png" alt="Icono de la red social Instagram."></a>
-            <a href=""><img class="redes" src="/img/iconos/twitter.png" alt="Icono de la red social X."></a>
-        </div>
-`;

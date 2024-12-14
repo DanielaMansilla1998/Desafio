@@ -1,0 +1,238 @@
+h1 {
+    color: #544959;
+    font-size: 3em;
+    margin: 3% 4%;
+}
+
+.contenedor-filtros {
+    width: 100%;
+    height: 70px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #544959;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.filtros {
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.contenedor-filtros select,
+.contenedor-filtros select option {
+    border: none;
+    color: #544959;
+    font-weight: bold;
+}
+
+#reservas {
+    min-height: fit-content;
+    display: grid;
+    padding: 2%;
+    grid-template-columns: 25% 25% 25%;
+    gap: 3em;
+    justify-content: space-around;
+    background: rgb(74, 15, 124);
+    background: linear-gradient(81deg, rgba(74, 15, 124, 1) 0%, rgba(88, 245, 135, 1) 87%);
+}
+
+.card-reserva {
+    width: 100%;
+    height: 400px;
+    min-height: fit-content;
+    max-height: 500px;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-reserva img {
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #544959;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.contenedor-datos {
+    width: 100%;
+    background-color: rgb(252, 18, 18);
+    color: #fff;
+}
+
+.contenedor-datos p {
+    margin-top: 3%;
+}
+
+p {
+    font-size: 1.2em;
+    margin-inline: 10%;
+}
+
+.valor-base {
+    font-weight: 900;
+    margin-top: 5%;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+#servicios-extra {
+    min-height: fit-content;
+    display: grid;
+    padding: 2%;
+    grid-template-columns: 15% 15% 15% 15%;
+    gap: 3em;
+    justify-content: space-around;
+    background: rgb(74, 15, 124);
+    background: linear-gradient(81deg, rgba(88, 245, 135, 1) 0%, rgb(74, 15, 124, 1) 87%);
+}
+
+.card-servicio {
+    width: 100%;
+    height: 200px;
+    min-height: fit-content;
+    max-height: 300px;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-servicio h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-inline: 10%;
+}
+
+.card-servicio p {
+    margin-inline: 10%;
+    text-align: center;
+}
+
+.card-reserva:hover,
+.card-servicio:hover {
+    background-color: #ebeaea;
+}
+
+
+/* RESPONSIVE TABLET */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .contenedor-filtros {
+        height: 150px;
+    }
+
+    .filtros {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #reservas {
+        grid-template-columns: 50%;
+    }
+
+    .card-reserva {
+        height: 300px;
+    }
+
+    .card-reserva img {
+        width: 85%;
+    }
+
+    h3 {
+        font-size: 1.8em;
+        margin-top: 2%;
+    }
+
+    #servicios-extra {
+        grid-template-columns: 25% 25% 25%;
+    }
+
+    .card-servicio h3 {
+        font-size: 1em;
+    }
+
+    .card-servicio p {
+        font-size: 1.1em;
+    }
+
+}
+
+/* RESPONSIVE CELULAR */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .contenedor-filtros {
+        height: 200px;
+    }
+
+    .filtros {
+        width: 100%;
+        height: 100%;
+        margin-left: 5%;
+        justify-items: left;
+        align-items: start;
+    }
+
+    #reservas {
+        grid-template-columns: 80%;
+        padding: 0%;
+        gap: 1em;
+    }
+
+    .card-reserva {
+        margin: 10% 0%;
+    }
+
+    .card-reserva img {
+        width: 100%;
+        height: 60%;
+    }
+
+    h3 {
+        margin-top: 2%;
+    }
+
+    h2{
+        font-size: 1.7em;
+    }
+
+    #servicios-extra {
+        grid-template-columns: 60%;
+    }
+
+}
