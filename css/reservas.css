@@ -231,6 +231,10 @@ h2 {
         font-size: 1.7em;
     }
 
+    .filtros-extra{
+        height: 70px !important;
+    }
+
     #servicios-extra {
         grid-template-columns: 60%;
     }
