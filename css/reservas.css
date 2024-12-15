@@ -139,6 +139,51 @@ h2 {
 }
 
 
+/* MODO OSCURO */
+.dark-mode h1 {
+    color: #75647c;
+}
+
+.dark-mode .contenedor-filtros {
+    border-top: 2px dashed;
+    border-bottom: 2px dashed ;
+    background-color: #38313b;
+}
+
+.dark-mode #reservas {
+    background: rgb(49, 10, 83);
+    background: linear-gradient(81deg, rgba(49, 10, 83, 1) 0%, rgba(53, 148, 81, 1) 87%);
+}
+
+.dark-mode .card-reserva,
+.dark-mode .card-servicio {
+    background-color: #242424;
+}
+
+.dark-mode h3 {
+    color: #fff;
+}
+
+.dark-mode #servicios-extra {
+    background: rgb(49, 10, 83);
+    background: linear-gradient(274deg, rgb(49, 10, 83, 1) 0%, rgb(56, 25, 94) 7%, rgb(58, 37, 95) 13%, rgb(54, 67, 88) 48%, rgb(53, 148, 81, 1) 87%);
+}
+
+
+.dark-mode .card-reserva:hover,
+.dark-mode .card-servicio:hover {
+    background-color: #302f2f;
+}
+
+.dark-mode h2{
+    background-color: #493f4d;
+    border-bottom: 0px;
+}
+
+
+
+
+
 /* RESPONSIVE TABLET */
 @media (max-width: 768px) {
 
@@ -227,11 +272,11 @@ h2 {
         margin-top: 2%;
     }
 
-    h2{
+    h2 {
         font-size: 1.7em;
     }
 
-    .filtros-extra{
+    .filtros-extra {
         height: 70px !important;
     }
 

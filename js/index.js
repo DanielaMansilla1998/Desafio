@@ -1,9 +1,9 @@
 // HEADER
 document.getElementById("navbar").innerHTML = `
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbarr">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary navbarr">
             <div class="container-fluid navbarr">
                 <a class="icono" href="/index.html"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler icono-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -11,21 +11,23 @@ document.getElementById("navbar").innerHTML = `
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                            <a class="nav-link active link-activo" aria-current="page" href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-activo" href="/reservas.html">Consultas</a>
+                            <a class="nav-link" href="/reservas.html">Consultas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/acceso.html">Acceso</a>
+                            <a class="nav-link" href="/error404.html">Error</a>
                         </li>
                     </ul>
+                    <button id="mode-toggle" class="mode-toggle">Modo Oscuro</button>
                 </div>
             </div>
         </nav>
+
 `;
 
 

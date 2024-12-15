@@ -213,13 +213,13 @@ h2 {
 }
 
 .niños10 {
-    background-color: #FFCF19;
+    background-color: #e0aa16 !important;
     color: #0A0300;
     border-top: 3px dashed #0A0300;
 }
 
 .familia {
-    background-color: #FF6700;
+    background-color: #FF6700 !important;
     color: #0A0300;
     border-top: 3px dashed #d4b8dd;
 }
@@ -470,12 +470,12 @@ textarea {
 
 
 /* VALIDADORES FORMULARIO */
-.icono-rojo{
+.icono-rojo {
     color: rgb(206, 26, 26);
     font-size: 1.2em;
 }
 
-.mensaje-error{
+.mensaje-error {
     min-width: 30%;
     width: fit-content;
     min-height: 50px;
@@ -494,7 +494,7 @@ textarea {
     justify-items: center;
 }
 
-.error-campos{
+.error-campos {
     min-height: 20px;
     font-size: 1em;
     margin: 1%;
@@ -503,47 +503,99 @@ textarea {
 
 
 /* MODO OSCURO */
-.mode-toggle{
+.mode-toggle {
     height: 40px;
     width: 15%;
     min-width: fit-content;
-    padding-left: 2%;
     display: flex;
     border: none;
     font-weight: bolder;
-    border-radius: 5px !important;
-    font-size: 1em !important;
-    justify-items: center !important;
-    align-items: center !important;
-    background-color: #58F587 !important;
+    border-radius: 5px;
+    font-size: 1em;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #58F587;
     color: #67596C;
     font-size: 1em;
 }
 
-.mode-toggle:hover{
+.mode-toggle:hover {
     background-color: #48c96f;
     color: #473d4b;
     font-size: 1.1em;
 }
 
-.dark-mode{
-    background-color: #222222;
+.dark-mode {
+    background-color: #2c2c2c;
     color: #f1f1f1;
 }
 
-.dark-mode .mode-toggle{
+.dark-mode .mode-toggle {
     background-color: #48c96f !important;
     color: #67596C !important;
 }
 
-.dark-mode .contenedor-imagen-texto{
+.dark-mode .nosotros {
+    color: #d4b8dd;
+    background-color: #67596C;
+}
+
+.dark-mode .boton-especial {
+    background-color: #4e4352 !important;
+}
+
+.dark-mode .contenedor-imagen-texto {
     background-color: #48c96f;
 }
 
-.dark-mode .festeja{
+.dark-mode .festeja {
     color: #9E8AA6 !important;
 }
 
+.dark-mode .horarios-atencion div, .dark-mode .horarios-servicio {
+    background-color: #443b47;
+}
+
+.dark-mode .formulario-contacto h3, .dark-mode .formulario-contacto label{
+    color: #f8f8f8 !important;
+}
+
+.dark-mode .niños2{
+    color: #d4b8dd;
+    background-color: #443b47;
+}
+.dark-mode .niños5 {
+    background-color: #c0608a;
+    color: #301030;
+    border-top: 3px dashed #682469;
+}
+
+.dark-mode .niños10 {
+    background-color: #9e7810 !important;
+    color: #f7f7f7;
+    border-top: 3px dashed #0A0300;
+}
+
+.dark-mode .familia {
+    background-color: #d15706 !important;
+    color: #f7f7f7;
+    border-top: 3px dashed #d4b8dd;
+}
+
+.dark-mode .contenedor-imagenes {
+    background: rgb(49, 10, 83);
+    background: linear-gradient(274deg, rgb(49, 10, 83, 1) 0%, rgb(56, 25, 94) 7%, rgb(58, 37, 95) 13%, rgb(54, 67, 88) 48%, rgb(53, 148, 81, 1) 87%);
+}
+
+.dark-mode .contenedor-main-2 {
+    height: 35%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(49, 10, 83);
+    background: linear-gradient(81deg, rgba(49, 10, 83, 1) 0%, rgba(53, 148, 81, 1) 87%);
+}
 
 
 
